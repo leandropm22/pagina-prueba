@@ -109,14 +109,26 @@ body {
 
 .imagen1{
     grid-area: imagen1;
+    transition: all 1s;
+}
+.imagen1:hover{
+    transform: scale(1.1);
 }
 
 .imagen2{
     grid-area: imagen2;
+    transition: all 1s;
+}
+.imagen2:hover{
+    transform: scale(1.1);
 }
 
 .imagen3{
     grid-area: imagen3;
+    transition: all 1s;
+}
+.imagen3:hover{
+    transform: scale(1.1);
 }
 
 img{
@@ -124,7 +136,7 @@ img{
     width: 400px;
 }
 
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
     .todasImagenes{
         display: grid;
         grid-template-columns: repeat(3,1fr)
@@ -137,9 +149,22 @@ img{
         "footer"
     }
     
+}*/
+
+.item{
+    transition: all 1s;
 }
-
-
+.item:hover{
+    background-color: black;
+    color: white;
+}
+a{
+    transition: all 1s;
+}
+a:hover{
+    
+    color: white;
+}
 
 
 
