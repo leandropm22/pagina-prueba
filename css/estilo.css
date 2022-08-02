@@ -1,0 +1,38 @@
+body {
+    background-image: url('../img/fondo.jpg')
+}
+
+.tamLogo{
+    width: 100px;
+}
+
+.colorFondo{
+    background-color: burlywood;
+}
+
+.ancla{
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.parrafoConHover:hover{
+    color: blue;
+}
+
+.parrafoConHover:hover{
+    transform: scale(1.1)
+}
+
+.parrafoConHover{
+    grid-area: parrafoConHover;
+    transition: all 1s;
+}
+
+.imagen1{
+    grid-area: imagen1;
+    transition: all 1s;
+}
+.imagen1:hover{
+    transform: scale(1.1)
+}
