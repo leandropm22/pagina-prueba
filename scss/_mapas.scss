@@ -1,0 +1,9 @@
+
+
+$estilo:(color:red,tamFuente:30px);
+
+.ancla {
+    background-color: map-get($map: $estilo, $key: color);
+    font-size: map-get($map: $estilo, $key: tamFuente);
+}
+

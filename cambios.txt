@@ -1,0 +1,2 @@
+Agregué unas keywords al index.
+Agregué meta description en todas las paginas html.
